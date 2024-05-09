@@ -1,6 +1,10 @@
 import time
 import serial
 import numpy as np
+
+# added new line of code
+import pandas as pd
+
 from cmath import exp,pi
 # configure the serial connections (the parameters differs on the device you are connecting to)
 ser = serial.Serial(
